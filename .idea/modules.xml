@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/python-scrolling.iml" filepath="$PROJECT_DIR$/.idea/python-scrolling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/py-scrolling.iml" filepath="$PROJECT_DIR$/.idea/py-scrolling.iml" />
     </modules>
   </component>
 </project>
