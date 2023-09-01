@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pyautogui
 
 cap = cv2.VideoCapture(0)
 
@@ -22,9 +23,8 @@ while True:
             cv2.rectangle(frame, (x,y), (x+w, y+h), (0, 255, 0),2)
 
             if y < prev_y:
-                print("moving down")
-            else:
-                print("doing nothing")
+                pyautogui.press('space')
+
             prev_y = y
 
     # cv2.imshow('mask', mask)
